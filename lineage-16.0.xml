@@ -8,7 +8,7 @@
 
   <remote  name="Palmbeach05"
            fetch="https://github.com"
-           revision="lineage-17.0" />
+           revision="lineage-16.0" />
 
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -33,14 +33,14 @@
   <remove-project name="platform/sdk" />
 
  <!-- Samsung MSM8916 Common Repos -->
-  <project path="device/samsung/msm8916-common" name="palmbeach05/android_device_samsung_msm8916-common" groups="device" remote="palmbeach05"/>
+  <project path="device/samsung/msm8916-common" name="palmbeach05/android_device_samsung_msm8916-common" groups="device" remote="palmbeach05" revision="lineage-17.0"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
 
  <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
 
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="palmbeach05/android_kernel_samsung_msm8916" remote="palmbeach05"/>
+  <project path="kernel/samsung/msm8916" name="palmbeach05/android_kernel_samsung_msm8916" remote="palmbeach05" revision="lineage-17.0"/>
 
  <!-- Vendor Trees (for all devices) -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>

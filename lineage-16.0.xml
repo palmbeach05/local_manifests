@@ -6,7 +6,7 @@
            review="review.msm8916.com"
            revision="lineage-16.0" />
 
-  <remote  name="Palmbeach05"
+  <remote  name="palmbeach05"
            fetch="https://github.com"
            revision="lineage-16.0" />
 
